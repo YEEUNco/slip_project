@@ -11,7 +11,7 @@ public class WordManager {
     }
     public int selectMenu(){
 
-        System.out.println(
+        System.out.print(
                 "******************\n"+
                 "1. 모든 단어 보기\n"+
                 "2. 수준별 단어 보기\n"+
