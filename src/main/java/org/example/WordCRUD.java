@@ -102,8 +102,6 @@ public class WordCRUD implements ICRUD{
         listAll(keyword);
     }
 
-
-
     public void updateItem(){
         System.out.print("=> 수정할 단어 선택 : ");
         String keyword = s.next();
@@ -125,7 +123,6 @@ public class WordCRUD implements ICRUD{
         System.out.print("=> 삭제할 번호 선택 : ");
         int id = s.nextInt();
         s.nextLine();
-
         System.out.print("=> 정말로 삭제하실래요?(Y/N) ");
         String ans = s.next();
         if(ans.equalsIgnoreCase("Y")) {
